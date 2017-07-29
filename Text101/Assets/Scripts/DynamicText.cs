@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DynamicText : MonoBehaviour 
 {
     [SerializeField] Text m_textContainer;
+    //Have different background & Text Colour for each state and finish your story going upto CV and finally, you get a Job or Game Success and you Win and they can start from beginning again
 
     enum BhanuState
     {
